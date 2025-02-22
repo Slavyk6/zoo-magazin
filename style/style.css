@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {  /*cand este amplasat cursorul deasupra casetei acasa, produse, contact se schimba culoarea*/
-    background-color: #ddd;
+    background-color: #487449;
     color: black;
 }
 

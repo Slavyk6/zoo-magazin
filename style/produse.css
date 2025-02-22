@@ -7,7 +7,7 @@ body {
 }
 
 header {      /* Stil pentru header */
-    background-color: #4CAF50;
+    background-color: rgb(161, 193, 134);
     color: black;
     padding: 20px;
     text-align: center;
@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #487449;
     color: black;
 }
 

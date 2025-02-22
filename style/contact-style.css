@@ -8,7 +8,7 @@ body {
 
 header {           /* Stil pentru header */
     text-align: center;
-    background-color: #4CAF50;
+    background-color: rgb(161, 193, 134);
     color: black;
     padding: 20px;
 }
@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #487449;
     color: black;
 }
 
@@ -47,16 +47,16 @@ p {
 }
 
 form {             /* Stil pentru formular */
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
+    background-color: rgb(161, 193, 134);
+    padding: 33px;
+    border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    max-width: 450px;
     margin: 20px auto;
 }
 
 input[type="text"], input[type="email"], textarea {
-    width: 100%;
+    width: 94%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ddd;
@@ -64,7 +64,7 @@ input[type="text"], input[type="email"], textarea {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #487449;
     color: white;
     padding: 10px 20px;
     border: none;
