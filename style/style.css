@@ -1,9 +1,26 @@
-nav button {
-    width: 7%;
-    height: 35px;
-    margin-top: 5px;
-    padding: 10px;
-}
+ /* Style the navbar */
+ #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  } 
+
 
 nav input[type=text] {
     float: left;
@@ -11,7 +28,6 @@ nav input[type=text] {
     border: none;
     margin-top: 6px;
     margin-right: 16px;
-    font-size: 17px;
     width: 50%;
 }
 
@@ -123,3 +139,17 @@ text-align: center;
 bottom: 100%;
 width: 100%;
 }
+a{
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: #4e7e51cd;
+  }
+  
+  a:active {
+    color: white;
+  }
