@@ -78,7 +78,8 @@ p {
     width: 30%;
     height: 30%;
     object-fit: cover;
-    ul {
+}
+ul {
       list-style-type: square;
       margin: 20px 0;
   }
