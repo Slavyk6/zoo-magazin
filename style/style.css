@@ -40,11 +40,13 @@ body {
 }
 
 header {
+    font-family: "Sofia", sans-serif;
     background-image: url("animale.jpeg");
     background-size: 50%;
     color: black;
     padding: 6px;
     text-align: center;
+    
 }
 
 nav {
@@ -72,7 +74,10 @@ nav a:hover {  /*cand este amplasat cursorul deasupra casetei acasa, produse, co
 
 h1 { /*denumirea paginei web zoomagazin*/
    font-size: 75px;
-   font-family: booble;
+   text-shadow: 0 0 10px white;
+   color: #39653b;
+   font-family: "Sofia", sans-serif;
+   
 }
 
 p {
@@ -80,29 +85,6 @@ p {
     line-height: 1.6em;
 }
 
-ul {
-    list-style-type: square;
-    margin: 20px 0;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-}
 
 form {
     background-color: white;
